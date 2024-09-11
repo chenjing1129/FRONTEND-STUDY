@@ -5,22 +5,26 @@ var foods = {
     bad : '方便面',
 }
 
-//获取foods中的best和bad
-// var best = foods.best
-// var bad = foods.bad
+// 获取foods中的best和bad
+var best = foods.best
+var bad = foods.bad
 
-//解构赋值
-// var {best,bad} = foods
+// 解构赋值
+var {best,bad} = foods
 
-// console.log(best)
-// console.log(bad)
+console.log('best',best) //小龙虾
 
-// var {best: best1, bad: bad1, hello} = foods
-// console.log(best1)
-// console.log(bad1)
-// console.log(hello)
 
-const address = {
+var {best: best1, bad: bad1, hate} = foods
+console.log('best',best1)
+console.log('bad',bad1)
+console.log('hate',hate)
+
+
+
+
+
+var address = {
     city: {
         name: '南京市',
         area: {
